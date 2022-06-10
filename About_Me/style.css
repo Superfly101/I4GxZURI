@@ -31,7 +31,7 @@ header {
 }
 
 .navbar .navbar-brand {
-  color: rgb(255, 148, 166);
+  color: rgb(255, 255, 0);
   margin-left: 10px;
   font-weight: 600;
   font-size: 1.3rem;
@@ -50,7 +50,7 @@ header {
 }
 
 .navbar .nav-item a:hover {
-  color: rgb(255, 148, 166);
+  color: rgb(255, 255, 0);
 }
 
 .navbar .navbar-collapse .navbar-nav {
@@ -208,7 +208,7 @@ main section {
 }
 
 .footer-distributed h3 span {
-  color: lightseagreen;
+  color: yellow;
 }
 
 /* Footer links */
@@ -274,7 +274,7 @@ main section {
 }
 
 .footer-distributed .footer-center p a {
-  color: lightseagreen;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -354,4 +354,32 @@ main section {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
+}
+
+
+/* Contact Me */
+form {
+  width: 600px;
+  max-width: 95%;
+  margin: auto;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.form-control input, .form-control textarea {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.form-action {
+  text-align: center;
+}
+
+.form-action button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 10px 20px;
 }
