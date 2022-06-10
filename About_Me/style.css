@@ -178,7 +178,7 @@ main section {
 
 /* Footer */
 .footer-distributed {
-  background: #666;
+  background: blueviolet;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -373,7 +373,8 @@ form {
 }
 
 .form-control input,
-.form-control textarea {
+.form-control textarea,
+.form-control select {
   width: 100%;
   padding: 5px 10px;
 }
