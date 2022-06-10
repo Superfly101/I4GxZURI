@@ -54,7 +54,6 @@
             </div>
             <div class="form-control reg">
                 <label for="gender">Gender</label>
-                <!-- <input type="text" id="first-name" placeholder="First Name" required> -->
                 <select name="gender" id="gender">
                     <option value="" selected>-- Select Gender -- </option>
                     <option value="male">Male</option>
@@ -75,15 +74,15 @@
             </div>
             <div class="form-control reg">
                 <label for="pass">Password</label>
-                <input type="password" id="pass" placeholder="Password" required >
+                <input type="password" id="pass" placeholder="Password" minlength="5" maxlength="20" required >
             </div>
             <div class="form-control reg">
                 <label for="confirm-pass">Confirm Password</label>
-                <input type="password" id="confirm-pass" placeholder="Re-enter Password" required >
+                <input type="password" id="confirm-pass" placeholder="Re-enter Password" minlength="5" maxlength="20" required >
             </div>
 
             <div class="form-action">
-                <button type="submit">Register</button>
+                <button type="submit">Sign Up</button>
             </div>
 
         </form>

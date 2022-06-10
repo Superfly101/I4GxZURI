@@ -67,7 +67,7 @@ a {
 }
 
 img {
-  width: 400px;
+  width: 300px;
 }
 
 main {
@@ -87,8 +87,8 @@ main section {
 
 .img-container {
   float: right;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   border-radius: 8px;
   margin-left: 20px;
@@ -170,11 +170,6 @@ main section {
   right: 0;
 }
 
-/* #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-} */
 
 /* Footer */
 .footer-distributed {
@@ -364,6 +359,7 @@ form {
   /* display: flex;
   flex-direction: column; */
   margin: auto;
+  margin-bottom: 40px;
 }
 
 .form-control {
@@ -385,7 +381,6 @@ form {
 
 .form-action {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .form-action button {
@@ -395,6 +390,13 @@ form {
   padding: 10px 20px;
 }
 
+.form-login {
+  padding: 5px;
+}
+.form-login button {
+  width: 100%;
+}
+
 /* Registration */
 .registration {
   width: 800px;
@@ -402,9 +404,9 @@ form {
 
 .form-control.reg {
   display: inline-block;
-  width: 40%;
-  margin: 0 20px;
-  margin-bottom: 20px;
+  width: 47%;
+  margin: 0 10px;
+  /* margin-bottom: 20px; */
 }
 
 /* Login */
@@ -418,4 +420,14 @@ form {
 
 .login-heading {
   text-align: center;
+}
+
+hr {
+  margin: 20px 5px 10px;
+}
+
+.form-action small {
+  display: block;
+  margin-bottom: 10px;
+  /* width: 100%; */
 }
