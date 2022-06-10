@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 header {
-  width: 99%;
+  width: 100%;
   margin-bottom: 40px;
   position: sticky;
   top: 0;
@@ -356,25 +357,34 @@ main section {
   }
 }
 
-
 /* Contact Me */
 form {
   width: 600px;
   max-width: 95%;
+  /* display: flex;
+  flex-direction: column; */
   margin: auto;
 }
 
 .form-control {
-  margin-bottom: 20px;
+  margin: 20px auto;
+  width: 100%;
+  padding: 5px;
 }
 
-.form-control input, .form-control textarea {
+.form-control input,
+.form-control textarea {
   width: 100%;
   padding: 5px 10px;
 }
 
+.form-control label {
+  font-size: 0.9em;
+}
+
 .form-action {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .form-action button {
@@ -382,4 +392,29 @@ form {
   color: white;
   border: none;
   padding: 10px 20px;
+}
+
+/* Registration */
+.registration {
+  width: 800px;
+}
+
+.form-control.reg {
+  display: inline-block;
+  width: 40%;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* Login */
+.login {
+  width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+}
+
+.login-heading {
+  text-align: center;
 }
